@@ -32,6 +32,14 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    
+    UIView animateWithDuration:0.5 delay:0.00 options:UIViewAnimationOptionCurveEaseOut animations:^{
+        self.
+    } completion:<#^(BOOL finished)completion#>
+}
+
 - (UIStatusBarStyle)preferredStatusBarStyle {
     return UIStatusBarStyleLightContent;
 }
