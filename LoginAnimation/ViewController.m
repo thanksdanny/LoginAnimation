@@ -10,18 +10,29 @@
 
 @interface ViewController ()
 
+@property (weak, nonatomic) IBOutlet UITextField *userNameLabel;
+@property (weak, nonatomic) IBOutlet UITextField *pswLabel;
+@property (weak, nonatomic) IBOutlet UIButton *loginBtn;
+
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    self.userNameLabel.layer.cornerRadius = 5;
+    self.pswLabel.layer.cornerRadius = 5;
+    self.loginBtn.layer.cornerRadius = 5;
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (UIStatusBarStyle)preferredStatusBarStyle {
+    return UIStatusBarStyleLightContent;
 }
 
 @end

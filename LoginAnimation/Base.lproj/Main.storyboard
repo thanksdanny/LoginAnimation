@@ -141,6 +141,11 @@
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="loginBtn" destination="KhJ-rM-nBu" id="K5k-jp-WWG"/>
+                        <outlet property="pswLabel" destination="TW1-XL-BDx" id="aT2-6c-1U9"/>
+                        <outlet property="userNameLabel" destination="whr-KF-MmG" id="ol7-T9-49h"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
