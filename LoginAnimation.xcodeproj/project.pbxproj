@@ -13,6 +13,7 @@
 		FD0901341C8C51E1001A6FF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD0901321C8C51E1001A6FF2 /* Main.storyboard */; };
 		FD0901361C8C51E1001A6FF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD0901351C8C51E1001A6FF2 /* Assets.xcassets */; };
 		FD0901391C8C51E1001A6FF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD0901371C8C51E1001A6FF2 /* LaunchScreen.storyboard */; };
+		FD0901421C8C5520001A6FF2 /* SplasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0901411C8C5520001A6FF2 /* SplasViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		FD0901351C8C51E1001A6FF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD0901381C8C51E1001A6FF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD09013A1C8C51E1001A6FF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD0901401C8C5520001A6FF2 /* SplasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplasViewController.h; sourceTree = "<group>"; };
+		FD0901411C8C5520001A6FF2 /* SplasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplasViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,8 @@
 			children = (
 				FD09012C1C8C51E1001A6FF2 /* AppDelegate.h */,
 				FD09012D1C8C51E1001A6FF2 /* AppDelegate.m */,
+				FD0901401C8C5520001A6FF2 /* SplasViewController.h */,
+				FD0901411C8C5520001A6FF2 /* SplasViewController.m */,
 				FD09012F1C8C51E1001A6FF2 /* ViewController.h */,
 				FD0901301C8C51E1001A6FF2 /* ViewController.m */,
 				FD0901321C8C51E1001A6FF2 /* Main.storyboard */,
@@ -151,6 +156,7 @@
 			files = (
 				FD0901311C8C51E1001A6FF2 /* ViewController.m in Sources */,
 				FD09012E1C8C51E1001A6FF2 /* AppDelegate.m in Sources */,
+				FD0901421C8C5520001A6FF2 /* SplasViewController.m in Sources */,
 				FD09012B1C8C51E1001A6FF2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
