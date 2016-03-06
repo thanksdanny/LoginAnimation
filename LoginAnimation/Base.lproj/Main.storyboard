@@ -132,6 +132,9 @@
                                 <state key="normal" title="Login">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="loginBtnDidToch" destination="BYZ-38-t0r" eventType="touchUpInside" id="hrr-NF-G59"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.26142072389999998" green="0.77977035989999999" blue="0.15914829220000001" alpha="1" colorSpace="calibratedRGB"/>

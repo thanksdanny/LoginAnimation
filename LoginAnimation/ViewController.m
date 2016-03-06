@@ -36,6 +36,16 @@
     return UIStatusBarStyleLightContent;
 }
 
+#pragma mark - action
+- (IBAction)loginBtnDidToch {
+    CGRect bounds = self.loginBtn.bounds;
+    
+    // animate
+    [UIView animateWithDuration:1.0 delay:0.0 usingSpringWithDamping:0.2 initialSpringVelocity:10 options:UIViewAnimationOptionCurveLinear animations:^{
+        self.loginBtn.bounds = CGRectMake(bounds.origin.x - 20, bounds.origin.y, bounds.size.width + 60, bounds.size.height);
+        self.loginBtn.enabled = NO;
+    } completion:nil];
+}
 
 
 @end
