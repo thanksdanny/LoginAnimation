@@ -24,6 +24,7 @@
     self.userNameLabel.layer.cornerRadius = 5;
     self.pswLabel.layer.cornerRadius = 5;
     self.loginBtn.layer.cornerRadius = 5;
+
 }
 
 - (void)didReceiveMemoryWarning {
@@ -34,5 +35,7 @@
 - (UIStatusBarStyle)preferredStatusBarStyle {
     return UIStatusBarStyleLightContent;
 }
+
+
 
 @end
