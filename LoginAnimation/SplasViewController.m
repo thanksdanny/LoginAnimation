@@ -10,19 +10,30 @@
 
 @interface SplasViewController ()
 
+@property (weak, nonatomic) IBOutlet UIButton *signBtn;
+@property (weak, nonatomic) IBOutlet UIButton *loginBtn;
+
 @end
 
 @implementation SplasViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    self.signBtn.layer.cornerRadius = 5;
+    self.loginBtn.layer.cornerRadius = 5;
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+- (UIStatusBarStyle)preferredStatusBarStyle {
+    return UIStatusBarStyleLightContent;
+}
+
+
 
 /*
 #pragma mark - Navigation
